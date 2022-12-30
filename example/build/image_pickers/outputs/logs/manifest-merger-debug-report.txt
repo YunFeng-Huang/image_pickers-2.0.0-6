@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:2:3-37
+		INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:3:5-65
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:3:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:4:5-71
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:4:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:7:22-64
+queries
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:8:5-18:15
+	package
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:8:14-40
+intent
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:9:9-13:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:10:13-12:22
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:10:21-70
+application
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:19:5-39:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:21:9-52
+	android:networkSecurityConfig
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:20:9-53
+uses-library#org.apache.http.legacy
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:9-88
+	android:required
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:61-85
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:23-60
+activity#com.leeson.image_pickers.activitys.PermissionActivity
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:9-99
+	android:theme
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:64-97
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:19-63
+activity#com.leeson.image_pickers.activitys.SelectPicsActivity
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:9-99
+	android:theme
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:64-97
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:19-63
+activity#com.leeson.image_pickers.activitys.PhotosActivity
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:9-130
+	android:screenOrientation
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:60-96
+	android:theme
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:97-128
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:19-59
+activity#com.leeson.image_pickers.activitys.VideoActivity
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:9-139
+	android:configChanges
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:59-105
+	android:theme
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:106-137
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:19-58
+uses-sdk
+INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+action#android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:15:13-16:22
+	android:name
+		ADDED from /Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:15:21-77

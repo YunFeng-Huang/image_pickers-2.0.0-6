@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.leeson.image_pickers" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.CAMERA" />
+7-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:3:5-65
+7-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:3:22-62
+8    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+8-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:4:5-71
+8-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:4:22-68
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:5:5-80
+9-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:5:22-77
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:6:5-81
+10-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:6:22-78
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:7:5-67
+11-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:7:22-64
+12
+13    <queries package="${applicationId}" >
+13-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:8:5-18:15
+13-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:8:14-40
+14        <intent>
+14-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:9:9-13:18
+15            <action android:name="android.media.action.IMAGE_CAPTURE" >
+15-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:10:13-12:22
+15-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:10:21-70
+16            </action>
+17        </intent>
+18        <intent>
+18-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:9:9-13:18
+19            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" >
+19-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:15:13-16:22
+19-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:15:21-77
+20            </action>
+21        </intent>
+22    </queries>
+23
+24    <application
+24-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:19:5-39:19
+25        android:networkSecurityConfig="@xml/net_sec"
+25-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:20:9-53
+26        android:requestLegacyExternalStorage="true" >
+26-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:21:9-52
+27
+28        <!-- 适配9.0的系统 -->
+29        <uses-library
+29-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:9-88
+30            android:name="org.apache.http.legacy"
+30-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:23-60
+31            android:required="false" />
+31-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:23:61-85
+32        <!-- 适配9.0的系统 -->
+33        <activity
+33-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:9-99
+34            android:name="com.leeson.image_pickers.activitys.PermissionActivity"
+34-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:19-63
+35            android:theme="@style/TransTheme" />
+35-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:25:64-97
+36        <activity
+36-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:9-99
+37            android:name="com.leeson.image_pickers.activitys.SelectPicsActivity"
+37-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:19-63
+38            android:theme="@style/TransTheme" />
+38-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:26:64-97
+39        <activity
+39-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:9-130
+40            android:name="com.leeson.image_pickers.activitys.PhotosActivity"
+40-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:19-59
+41            android:screenOrientation="portrait"
+41-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:60-96
+42            android:theme="@style/AppTheme" />
+42-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:27:97-128
+43        <activity
+43-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:9-139
+44            android:name="com.leeson.image_pickers.activitys.VideoActivity"
+44-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:19-58
+45            android:configChanges="orientation|screenSize"
+45-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:59-105
+46            android:theme="@style/AppTheme" />
+46-->/Users/huangrongfeng/Downloads/image_pickers-2.0.0+6/android/src/main/AndroidManifest.xml:28:106-137
+47
+48        <!-- <provider -->
+49        <!-- android:name=".provides.MyProvide" -->
+50        <!-- android:authorities="com.leeson.pickers.fileprovider" -->
+51        <!-- android:exported="false" -->
+52        <!-- android:grantUriPermissions="true"> -->
+53        <!-- <meta-data -->
+54        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+55        <!-- android:resource="@xml/pickers_plugin_file_path" /> -->
+56        <!-- </provider> -->
+57    </application>
+58
+59</manifest>
